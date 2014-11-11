@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 # the controller "static_pages"
 # and the action "home"
 
+  get 'users/:id' => 'users#show'
   get 'static_pages/about'
 
   get'static_pages/services'
